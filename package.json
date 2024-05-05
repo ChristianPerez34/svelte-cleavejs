@@ -10,7 +10,11 @@
   "bugs": {
     "url": "https://github.com/GCBenlloch/svelte-cleavejs/issues"
   },
-  "svelte": "src/index.js",
+  "exports": {
+    ".": {
+      "svelte": "src/index.js"
+    }
+  },
   "module": "dist/index.mjs",
   "main": "dist/index.js",
   "scripts": {
